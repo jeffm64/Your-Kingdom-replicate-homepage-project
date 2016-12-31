@@ -1,0 +1,245 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+    
+	<title>eI9Verify</title>
+   
+	<!-- USE BEANS DECLARATIONS -->
+	
+	
+   
+	<!-- STYLESHEET ENTRIES -->
+	<link href="eI9Verify_files/eob_application.css" rel="stylesheet" type="text/css">
+   
+	<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+	
+	
+	<!-- JAVASCRIPT DEFINITIONS -->
+    <script language="JavaScript1.2" src="eI9Verify_files/usv_ajax.js"></script>
+	<script language="JavaScript1.2" src="eI9Verify_files/scripts.js"></script>
+	<script language="JavaScript1.2" src="eI9Verify_files/valid_fields.js"></script>
+
+<script type="text/javascript">
+	<!--
+	  
+        function go(action)
+        {		  
+	   		setAction(action);			
+	   		document.MAIN.submit();
+	   		return true; 	     
+        }	  
+	  
+	  function jumpTo(URL_List){
+	     var URL = URL_List.options[URL_List.selectedIndex].value;
+	     if (URL == "blank"){
+	     	return false;
+	     }else{
+	     window.location.href = URL;
+	     }
+	  }
+	
+	function checkKey()
+	{   
+	  
+	       if (window.event.keyCode == 13)
+	       {	                 
+		  processConfirm();
+	       }      
+	   
+   	}  	
+   	
+   	 function process()
+	 {	   
+	    setAction('PROCESS_REMOTE_EMP_SIG');	    
+	    document.MAIN.submit();
+	    return true;
+		 	    
+	 }
+
+	 function savePage()
+	 {
+		 
+		 	
+		 	
+				alert('Please click File -> Save to save this page to your computer.');
+		 	
+		 
+
+	 }
+
+	// -->
+	</script>
+</head>
+<body onkeypress="javascript:if (event.keyCode == 13) {checkKey();}">
+<div id="blanket" style="display:none;"></div>
+<form name="MAIN" action="eob" method="post">
+
+
+<div id="container">
+
+<!-- HEADER -->
+	<div id="header">
+       
+   <div id="logo"><h1 class="logo-small"><span>eI-9Verify</span></h1></div>
+   <div id="powered-by"><blockquote>Powered by USVerify</blockquote></div>
+   <div id="topnav">
+      <ul>
+         <li>&nbsp;</li>
+      </ul>
+   </div>
+
+	</div>
+    
+<!-- BOX OUTLINE -->
+	<div id="box-top"></div>
+	<div id="box-middle">
+
+<!-- CONTENT GOES HERE -->
+	<div id="content">
+            
+                
+                
+                    <h1>Employee Signature Confirmation</h1>
+                    <p>This confirms that JEFF ENGLAND has reviewed
+                    the I-9 summary, read and agreed with the terms of 
+use, and electronically signed the form I-9 on 19feb2016 01:42:18 PM.</p>
+                    <p>You may click 'Print' or 'Save' below if you wish to keep a copy of the information on this page.</p>
+                
+            
+
+		<h2>Employee Information</h2>
+		
+		<table width="100%">
+			<tbody><tr>
+				<td valign="top" width="50%">     
+					<table width="100%">
+						<tbody><tr>
+							<td class="data-label" width="35%">First name:</td>
+							<td>JEFF</td>
+						</tr>
+						<tr>
+							<td class="data-label">MI:</td>
+							<td>
+								M
+							</td>
+						</tr>
+						<tr>
+							<td class="data-label">Last name:</td>
+							<td>ENGLAND</td>
+						</tr>
+						<tr>
+							<td class="data-label">Other Name:</td>
+							<td></td>
+						</tr>
+						<tr>
+							<td class="data-label">Address:</td>
+							<td>202 E SOUTH ST</td>
+						</tr>
+						<tr>
+							<td class="data-label">Apt #:</td>
+							<td>
+                                
+                            </td>
+						</tr>
+						<tr>
+							<td class="data-label">City:</td>
+							<td>ALBION</td>
+						</tr>
+						<tr>
+							<td class="data-label">State:</td>
+							<td>IN</td>
+						</tr>
+						<tr>
+							<td class="data-label">Zip code:</td>
+							<td>46701</td>
+						</tr>
+					</tbody></table>
+				</td>
+				<td valign="top" width="50%">
+					<table width="100%">
+						<tbody><tr>              
+							<td class="data-label" width="35%">Date of birth:</td>
+							<td>
+								
+								
+										09-23-1991
+									
+									
+								
+							</td>
+						</tr>
+						<tr>
+							<td class="data-label">Social security #:</td>
+							<td>
+								
+									
+										313115773
+									
+									
+								
+								
+							</td>
+						</tr>
+						<tr>
+							<td class="data-label">Status:</td>
+							<td>CITIZEN</td>
+						</tr>
+						<tr>
+							<td class="data-label">Refugee or Asylee:</td>
+							<td>
+								
+									
+									
+										NO
+									
+								
+							</td>
+						</tr>
+						<tr>
+							<td class="data-label">Location:</td>
+							<td>021521 - Onsite - Bosch IN</td>
+						</tr>
+					</tbody></table>
+				</td>
+			</tr>
+		</tbody></table>
+		
+		
+	  	
+		
+        <p>&nbsp;</p>
+        <table width="100%" border="0" cellpadding="0" cellspacing="0">
+			<tbody><tr>
+				<td align="right">
+					<input class="save_on" onmouseover="this.className='save_on';" onmouseout="this.className='save';" value="Save" onclick="savePage();" type="button">
+					<input class="print" onmouseover="this.className='print_on';" onmouseout="this.className='print';" value="Print" onclick="window.print();" type="button">
+					<input class="previous" onmouseover="this.className='previous_on';" onmouseout="this.className='previous';" tabindex="4200" onclick="setAndGo('REMOTE_EMP_SIGNATURE');" value="Previous" type="button">
+					<input class="next" onmouseover="this.className='next_on';" onmouseout="this.className='next';" tabindex="4300" name="nextButton" onclick="process();" value="Next" type="button">   
+					<input name="page" value="sig_confirm" type="hidden">	   
+					<input name="signed_by" value="EMPLOYEE_SIG" type="hidden">
+				</td>
+			</tr>
+		</tbody></table>
+
+<!-- Here is the End-->
+	</div><!-- /CONTENT -->
+	</div><!-- /BOX OUTLINE -->
+    
+	<div id="box-bottom"></div>
+    
+<!-- FOOTER -->
+	<div id="footer">
+       <p class="footer">
+	Copyright © 2016 
+	USVerify - All rights reserved 
+</p>
+
+
+    </div>
+    
+  </div><!-- /CONTAINER -->
+	
+<input name="p_action" value="" type="hidden">
+<input name="p_menu" value="" type="hidden">
+
+
+</form></body></html>

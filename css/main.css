@@ -1,0 +1,706 @@
+
+/* ---- Universal ---- */
+
+* {
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+	text-decoration: none;
+	box-sizing: border-box;
+}
+
+img {
+	max-width: 100%;
+}
+
+body {
+	font-family: "Georgia", Cambria, Times New Roman; 
+	font-size: 16px;
+	background-color: #f8f8f8;
+}
+
+input, button, submit {
+	border: none;
+}
+
+/* ---- Colors ---- */
+
+.gray-bg {
+	background-color: #f7f5f1;
+}
+
+.orange-bg {
+	background-color: #d76746;
+}
+
+.white-bg {
+	background-color: #fff;
+}
+
+.blue-color {
+	color: #4b79a0;
+}
+
+.gray-color {
+	color: #8a8a8a;
+}
+
+.green-color {
+	color: #78964d;
+}
+
+.orange-color {
+	color: #d76746;
+}
+
+.white-color {
+	color: #fff;
+}
+
+.yellow-color {
+	color: #ffae2a;
+}
+
+/* ---- Float clearfix ---- */
+
+	.clearfix::after {
+		content: " ";
+		display: table;
+		clear: both;
+	}
+
+
+
+
+/*//////////////////////////////////////
+	SOCIAL-MEDIA-HEADER & MAIN-LOGO
+//////////////////////////////////////*/
+
+header {
+	text-align: center;
+}
+
+.social-media-header {
+	padding: 15px 23px 0;
+}
+
+.social-media-header img {
+	width: 28px;
+	height: 29px;
+	margin: 0 3px 22px;
+}
+
+/* ---- Main-logo ---- */
+
+.main-logo img {
+	display: block;
+	width: 325px;
+	height: auto;
+	margin: 0 auto 50px;
+	padding: 0 23px;
+}
+
+
+
+/*//////////////////////////////////////
+	NAVIGATION
+//////////////////////////////////////*/
+
+nav ul {
+	margin-bottom: 12px;
+	padding: 0 23px;
+}
+
+nav li {
+	display: inline;
+	margin: 0 5px;
+}
+
+nav li a {
+	white-space: nowrap;
+	font-size: 19px;
+	line-height: 1.6;
+}
+
+/* ---- newsletter-signup ---- */
+
+.newsletter-signup {
+	display: block;
+	padding: 0 5px 13px;
+	padding-bottom: 15px;
+}
+
+.newsletter-signup button,
+.newsletter-signup input {
+	height: 32px;
+}
+
+.newsletter-signup input {
+	width: 75%;
+	border: 1px solid #eaedf2;
+	color: #c5c4c2;
+	margin-right: -5px;
+	padding: 0 72px 0 10px;
+}
+
+.newsletter-signup button {
+	padding: 4px 8px;
+}
+
+
+
+/*//////////////////////////////////////
+	SEARCH-WIDGET
+//////////////////////////////////////*/
+
+.search-widget {
+	margin-top: 21px;
+	padding: 23px 25px 50px;
+}
+
+.search-widget-m {
+	padding: 43px 25px 20px;
+	margin-bottom: 30px;
+}
+
+.search-widget h3,
+.search-widget-m h3 {
+	font-size: 19px;
+	margin-bottom: 20px;
+	font-weight: normal;
+}
+
+.search-widget p,
+.search-widget-m p {
+	color: #8a8a8a;
+	margin-bottom: 16px;
+	font-size: 15px;
+}
+
+.search-places {
+	width: 100%;
+}
+
+.by-county,
+.category,
+.keywords {
+	display: block;
+	width: 233px;
+	height: 30px;
+	border: 1px solid #eaedf2;
+	color: #a09d96;
+	margin-right: -5px;
+	margin-bottom: 8px;
+	padding: 0 72px 0 10px;
+}
+
+.keywords {
+	display: inline-block;
+	width: 195px;
+	color: #c5c4c2;
+	margin-bottom: 20px;
+}
+
+.search-places button {
+	width: 40px;
+	height: 30px;
+}
+
+.map {
+	display: block;
+	height: 191px;
+	padding-top: 15px;
+	background: url('../img/browse-map.png') no-repeat right top;
+}
+
+.eat-drink-column-2-dt,
+.ig-kingdom-column-dt {
+	display: none;
+}
+
+.eat-drink-column-2-dt,
+.ig-kingdom-column-dt {
+	padding: 18px 24px;
+}
+
+.eat-drink-column-2-dt h2,
+.ig-kingdom-column-dt h2 {
+	font-size: 24px;
+	margin-bottom: 18px;
+	font-weight: normal;
+}
+
+.eat-drink-column-2-dt p,
+.ig-kingdom-column-dt p {
+	margin: 15px 0;
+	line-height: 1.4;
+}
+
+
+
+/*//////////////////////////////////////
+	MAIN-CONTENT
+//////////////////////////////////////*/
+
+.main-image {
+	position: relative;
+	text-align: center;
+}
+
+.main-image img {
+	padding:0 15px;
+}
+
+.main-image p {
+	position: absolute;
+	padding: 5px 10px 10px;
+	bottom: 0;
+	width: 100%;
+	background-color: rgba(255, 255, 255, .9);
+}
+
+
+
+/*//////////////////////////////////////
+	COLUMNS
+//////////////////////////////////////*/
+
+.columns {
+	padding: 18px 24px;
+}
+
+.columns h2 {
+	font-size: 24px;
+	margin-bottom: 18px;
+	font-weight: normal;
+}
+
+.columns p {
+	margin: 15px 0;
+	line-height: 1.4;
+}
+
+.eat-drink-column {
+	padding-top: 50px;
+}
+
+.go-stay-column {
+	background: url('../img/wigwam-icon.jpg') no-repeat top right #fff;
+}
+
+.meet-team-column {
+	background: url('../img/teapot-icon.jpg') no-repeat top right #fff;
+}
+
+.eat-drink-column-2,
+.ig-kingdom-column {
+	-webkit-box-shadow: 0px 10px 25px -4px rgba(0,0,0,0.38);
+	-moz-box-shadow: 0px 10px 25px -4px rgba(0,0,0,0.38);
+	box-shadow: 0px 10px 25px -4px rgba(0,0,0,0.38);
+}
+
+.eat-drink-column-2 {
+	margin-bottom: 30px;
+}
+
+.ig-kingdom-column {
+	margin-bottom: 70px;
+	background: url('../img/instagram-icon.jpg') no-repeat top right #fff;
+}
+
+/*//////////////////////////////////////
+	FOOTER
+//////////////////////////////////////*/
+
+footer {
+	text-align: center;
+}
+
+.main-footer-content h4 {
+	margin: 0 auto 20px;
+	line-height: 2;
+	font-weight: normal;
+	padding-top: 20px;
+	border-bottom: solid #8a8a8a 1px;
+	width: 170px;
+}
+
+.main-footer-content li {
+	line-height: 1.6;
+}
+
+.follow-here img {
+	width: 28px;
+	height: 29px;
+	margin: 0 3px;
+}
+
+.subscribe-newsletter h4 {
+	width: 100%
+}
+
+.subscribe-newsletter p {
+	line-height: 1.3;
+	padding-right: 13px;
+	padding-left: 13px;
+	margin-bottom: 15px;
+}
+
+.copyright {
+	margin: 5px 0 40px;
+	line-height: 1.3;
+}
+
+.copyright a {
+	text-decoration: underline;
+}
+
+
+
+
+/*///////////////////////////////
+////////////////////////////////
+	MEDIA QUERIES
+////////////////////////////////
+///////////////////////////////*/
+
+@media (min-width: 768px) {
+
+/* ---- SOCIAL-MEDIA-HEADER & MAIN-LOGO ---- */
+
+	.header-content {
+		position: relative;
+		margin: 0 auto;
+		padding-top: 20px;
+		width:768px;
+	}
+
+	.social-media-header {
+		position: absolute;
+		right: 2px;
+		padding: 0 6px 0 0;
+	}
+
+	.main-logo img {
+		width: 325px;
+		height: 194px;
+		padding: 0;
+		margin-top: 12px;
+	}
+	
+
+/* ---- NAVIGATION --------------------- */
+
+	.newsletter-signup input {
+		width: 164px;
+		padding: 0 0 0 10px;
+		font-size: 15px;
+	}
+
+	.newsletter-signup button {
+		padding: 4px 12px;
+	}
+
+	nav ul {
+		display: inline-block;
+		text-align: left;
+		padding: 0;
+		width: 499px;
+	}
+
+	nav li {
+		padding: 0 19px;
+	}
+
+	.nav-1 {
+		padding-left: 5px;
+	}
+
+	.newsletter-signup {
+		display: inline-block;
+		width: 260px;
+	}
+
+
+/* ---- SEARCH WIDGET --------------------- */
+
+	.content {
+		margin: 0 auto;
+		width: 760px;
+	}
+
+	.sidebar-content {
+		float: right;
+		width: 240px;
+	}
+
+	.search-widget {
+		width: 240px;
+		height: 447px;
+		padding: 23px 20px 50px 20px;
+		margin-bottom: 30px;
+	}
+
+	.search-places {
+		width: 100%;
+	}
+
+	.by-county,
+	.category,
+	.keywords {
+		width: 200px;
+	}
+
+	.keywords {
+		width: 160px;
+	}
+
+	.eat-drink-column-2-dt,
+	.ig-kingdom-column-dt {
+		display: block;
+	}
+
+	.eat-drink-column-2,
+	.ig-kingdom-column {
+		display: none;
+	}
+
+	
+/* ---- MAIN-CONTENT --------------------- */
+
+	.main-content {
+		float: left;
+		width: 499px;
+	}
+
+/* ---- MAIN-IMAGE --------------------- */
+
+	.main-image {
+		margin: 20px 0 30px;
+		float: left;
+		width: 499px;
+		background-color: #fff;
+		line-height: 1.4;
+	}
+
+	.main-image img {
+		padding: 5px;
+	}
+
+
+/* ---- COLUMNS --------------------- */
+
+
+
+	.columns {
+		width: 239px;
+		float: left;
+		padding: 18px 24px;
+		margin-bottom: 30px;
+		-webkit-box-shadow: 0px 10px 25px -4px rgba(0,0,0,0.38);
+		-moz-box-shadow: 0px 10px 25px -4px rgba(0,0,0,0.38);
+		box-shadow: 0px 10px 25px -4px rgba(0,0,0,0.38);
+	}
+
+	.eat-drink-column,
+	.meet-team-column {
+		margin-right: 21px;
+	}
+
+	.eat-drink-column-2-dt,
+	.ig-kingdom-column-dt {
+		width: 239px;
+		
+		padding: 18px 24px;
+		margin-bottom: 30px;
+		-webkit-box-shadow: 0px 10px 25px -4px rgba(0,0,0,0.38);
+		-moz-box-shadow: 0px 10px 25px -4px rgba(0,0,0,0.38);
+		box-shadow: 0px 10px 25px -4px rgba(0,0,0,0.38);
+	}
+
+
+/* ---- SEARCH WIDGET M --------------------- */
+
+	.search-widget-m {
+		display: none;
+	}
+
+
+
+/* ---- FOOTER --------------------- */
+
+	footer {
+		margin-top: 40px;
+	}
+
+	.footer-columns {
+		text-align: left;
+		float: left;
+		display: block;
+		width: 31%;
+	}
+
+	.footer-columns ul {
+		text-align: center;
+		margin: 0 auto;
+		width: 170px;
+	}
+
+	.footer-columns li {
+		text-align: left;
+	}
+
+	.follow-here ul {
+		text-align: left;
+		width: 170px;
+	}
+
+	.subscribe-newsletter {
+		display: none;
+	}
+
+	.copyright {
+		margin: 30px 0 0;
+		line-height: 1.53;
+		padding-bottom: 33px;
+	}
+
+
+}
+
+
+
+
+
+@media (min-width: 1030px) {
+
+/* ---- SOCIAL-MEDIA-HEADER & MAIN-LOGO ---- */
+
+	.header-content {
+		width:1030px;
+	}
+
+/* ---- NAVIGATION --------------------- */
+
+	.newsletter-signup input {
+		width: 250px;
+	}
+
+	nav ul {
+		float: left;
+		width: 610px;
+	}
+
+	nav li {
+		padding: 0 60px;
+	}
+
+	.newsletter-signup {
+		display: inline-block;
+		float: right;
+		width: 350px;
+	}
+
+/* ---- SEARCH WIDGET --------------------- */
+
+	.content {
+		width: 1030px;
+	}
+
+	.sidebar-content {
+		float: right;
+		width: 325px;
+		height: 457px;
+		margin-right: 10px;
+	}
+
+	.search-widget {
+		width: 325px;
+		height: 456px;
+	}
+
+	.by-county,
+	.category,
+	.keywords {
+		width: 280px;
+	}
+
+	.keywords {
+		width: 240px;
+	}
+
+/* ---- MAIN-CONTENT --------------------- */
+
+	.main-content {
+		width: 672px;
+	}
+
+/* ---- MAIN-IMAGE --------------------- */
+
+	.main-image {
+		width: 672px;
+	}
+
+	.main-image p {
+		padding: 8px 10px 18px;
+		text-align: left;
+	}
+
+/* ---- COLUMNS --------------------- */
+
+
+
+	.columns,
+	.eat-drink-column-2-dt {
+		width: 325px;
+		height: 620px;
+		position: relative;
+	}
+
+	.eat-drink-column-2-dt,
+	.ig-kingdom-column-dt {
+		width: 325px;
+		height: 620px;
+	}
+
+	.ig-kingdom-column-dt {
+		height: 585px;
+	}
+
+	.read-more {
+		position: absolute;
+		bottom: 20px;
+		left: 23px;
+	}
+
+/* ---- FOOTER --------------------- */
+
+	.main-footer-content {
+		width: 1030px;
+		margin: 0 auto;
+	}
+
+	.footer-columns {
+		text-align: left;
+		float: left;
+		display: block;
+		width: 22%;
+	}
+
+	.subscribe-newsletter {
+		text-align: left;
+		float: left;
+		display: block;
+		width: 34%;
+	}
+
+	.subscribe-newsletter p {
+		padding-left: 0;
+	}
+
+	.subscribe-newsletter form {
+		padding-left: 0;
+	}
+
+
+}
